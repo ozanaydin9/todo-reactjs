@@ -8,7 +8,7 @@ import {backendUrl} from './Helper';
 
 const { Header, Content, Footer } = Layout;
 
-class Notes extends React.Component {
+class Todo extends React.Component {
 
     constructor(props) {
         super(props);
@@ -107,4 +107,4 @@ class Notes extends React.Component {
     }
 }
 
-export default Notes;
+export default Todo;
