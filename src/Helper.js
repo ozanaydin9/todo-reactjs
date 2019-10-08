@@ -1,3 +1,3 @@
 export function backendUrl() {
-    return "http://getir-todo-backend.herokuapp.com/";
+    return "https://getir-todo-backend.herokuapp.com/";
 }
