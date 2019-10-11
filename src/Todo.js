@@ -3,7 +3,7 @@ import {Layout} from 'antd';
 import TodoTable from "./TodoTable";
 import Loading from "./Loading";
 import {Input, Button } from 'antd';
-import logo from './assets/gtr.png';
+import logo from './assets/todo.png';
 import {backendUrl} from './Helper';
 
 const { Header, Content, Footer } = Layout;
@@ -82,7 +82,7 @@ class Todo extends React.Component {
 
         return (
         <Layout className="layout">
-            <Header style={{textAlign:'center',position:'fixed', left:'0', height:'70px', width:'100%',backgroundColor:'#5D3EBD'}}>
+            <Header style={{textAlign:'center',position:'fixed', left:'0', height:'70px', width:'100%',backgroundColor:'#96d9e7'}}>
 
                 <div id="logo">
                     <img src={logo} alt="Logo" />
@@ -101,7 +101,7 @@ class Todo extends React.Component {
                     <TodoTable todos={this.state.todos} onUpdate={this.onUpdate} onDelete={this.onDelete}/>
                 </div>
             </Content>
-            <Footer style={{backgroundColor:'#5D3EBD', position:'fixed', left:'0', height:'70px', width:'100%', bottom:'0', top:'auto', textAlign: 'center',fontSize:'20px' }}><text style={{color:'white'}}>Ozan Aydın</text></Footer>
+            <Footer style={{backgroundColor:'#96d9e7', position:'fixed', left:'0', height:'70px', width:'100%', bottom:'0', top:'auto', textAlign: 'center',fontSize:'20px' }}><text style={{color:'white'}}>Ozan Aydın</text></Footer>
         </Layout>
         );
     }
